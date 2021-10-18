@@ -69,11 +69,13 @@ module.exports = {
     output: {
         path: path.join(rootDir, 'dist', 'plugin'),
         filename: 'wavesurfer.[name].js',
-        library: ['WaveSurfer', '[name]'],
-        publicPath: 'localhost:8080/dist/plugin/'
+        library: ['WaveSurfer', '[name]']
+        // publicPath: 'localhost:8080/dist/plugin/'
     },
     devServer: {
-        publicPath: 'localhost:8080/dist/plugin/'
+        devMiddleware: {
+            publicPath: 'localhost:8080/dist/plugin/'
+        }
     },
     plugins: [banner.pluginBanner]
 };
