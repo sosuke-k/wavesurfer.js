@@ -25,7 +25,7 @@ module.exports = {
             "ignoredNodes": ["TemplateLiteral"],
             "SwitchCase": 1
         }],
-        'comma-dangle': ["error", "never"],
+        'comma-dangle': "off",
         'comma-spacing': ["error", { "before": false, "after": true }],
         'no-console': 1,
         'no-unused-vars': 'off',
@@ -43,7 +43,7 @@ module.exports = {
         'no-dupe-keys': "error",
         'require-jsdoc': 2,
         'no-duplicate-imports': "error",
-        'space-before-function-paren': ["error", "never"],
+        'space-before-function-paren': "off",
         'keyword-spacing': ["error", {"before": true}]
     },
     'overrides': [
