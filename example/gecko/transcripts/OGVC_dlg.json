@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "2.0",
+  "monologues": [
+    {
+      "speaker": { "id": "<NA>" },
+      "start": 2.52,
+      "end": 2.69,
+      "terms": [{ "start": 2.52, "end": 2.69, "text": "", "type": "WORD" }]
+    },
+    {
+      "speaker": { "id": "kato", "name": "" },
+      "start": 3.18,
+      "end": 3.44,
+      "terms": [
+        { "text": "bbbbbbbb", "start": 3.18, "end": 3.44, "type": "WORD" }
+      ]
+    },
+    {
+      "speaker": { "id": "[aaa]", "name": "" },
+      "start": 3.84,
+      "end": 4.39,
+      "terms": [
+        { "start": 3.84, "end": 4.39, "text": "aaaaaaaaaaaa", "type": "WORD" }
+      ]
+    }
+  ]
+}
